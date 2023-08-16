@@ -1,4 +1,8 @@
-@extends('layouts.app')
+@extends('layouts.app', [
+'parentSectionMain' => '',
+'parentSection' => '',
+'elementName' => '',
+])
 
 @section('content')
     <header class="page-header page-header-dark bg-gradient-primary-to-secondary pb-10">
